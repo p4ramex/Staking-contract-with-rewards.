@@ -11,6 +11,7 @@ Provides fixed staking rewards
 Enables withdrawal of staked funds and rewards
 
 Technical Implementation:
+
 Uses OpenZeppelin's ERC20 interface
 
 Real-time reward calculations
@@ -20,6 +21,7 @@ Basic reward update system
 Balance adequacy checks
 
 Core Functions:
+
 stake(): Deposit tokens
 
 withdraw(): Withdraw staked tokens
@@ -29,6 +31,7 @@ claimReward(): Claim accumulated rewards
 getPendingReward(): View pending rewards
 
 Important Notes:
+
 Users must approve token transfers before staking
 
 Reward rate is approximate (1% daily in example)
